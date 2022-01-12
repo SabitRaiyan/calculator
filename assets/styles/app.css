@@ -11,11 +11,11 @@ body {
 }
 
 header {
-  background: #023d6d;
-  color: white;
+  background: #ff2600;
+  color: rgb(139, 207, 228);
   padding: 1rem;
   text-align: center;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.783);
   width: 100%;
 }
 
@@ -24,10 +24,11 @@ header {
   margin: 2rem auto;
   width: 40rem;
   max-width: 90%;
-  border: 1px solid #023d6d;
+  border: 1px solid #e6ee4d;
   border-radius: 10px;
   padding: 1rem;
-  color: #023d6d;
+  color: #ffffff;
+  background-color: #023d6d;
 }
 
 #results {
@@ -42,7 +43,7 @@ header {
   padding: 0.15rem;
   margin: auto;
   display: block;
-  color: #023d6d;
+  color: #000000;
   text-align: center;
 }
 
@@ -52,8 +53,8 @@ header {
 
 #calculator button {
   font: inherit;
-  background: #023d6d;
-  color: white;
+  background: #23c162;
+  color: rgb(0, 0, 0);
   border: 1px solid #023d6d;
   padding: 1rem;
   cursor: pointer;
@@ -65,7 +66,7 @@ header {
 
 #calculator button:hover,
 #calculator button:active {
-  background: #084f88;
+  background: #f2ff03;
   border-color: #084f88;
 }
 
